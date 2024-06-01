@@ -2,6 +2,8 @@
 This project leverages Llama Index to generate question-answer pairs from various file formats such as PDF, TXT, PPT, or CSV. Additionally, it provides justification for each answer's correctness along with the source from the uploaded file.
 
 ## How to Use:
+First create a virtual environment and install the requirements
+
 ### Using qa.py (Terminal Version):
 
 1. Place the qa.py file in the data folder.
