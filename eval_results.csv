@@ -1,0 +1,172 @@
+Query,Response,Source,Eval_result_feedback,Score,Pairwise source
+"According to the attendance report, what is the total number of theory classes held for the course code SE-408?",The total number of theory classes held for the course code SE-408 is 18.,"Report Generated on 19-MAY-24NED UNIVERSITY OF ENGINEERING AND TECHNOLOGY -
+STUDENT ATTENDANCE
+Student Name :
+Academic Session :
+Discipline :
+From Date : To Date :Section :Academic Year :Roll No. :
+2023-2024
+Software EngineeringMUHAMMAD MOAAZ SIDDIQUI
+26-FEB-24SE-076
+Fourth Year
+Section-B
+12-JUL-24
+Page 1 of 1Theory
+1
+2
+3
+4MG-481 
+SE-408 
+SE-410 
+SE-485 ( Opt )  4
+14
+18
+160
+7
+13
+100
+50
+72
+6318-APR-2024
+02-MAY-2024
+09-MAY-2024
+09-MAY-2024
+ 58 TotalTheoryPercentage :S.No. Coursecode Classes Held Present Percentage Last Class Entered...","Yes, the response for the query is in line with the context information provided. The context information shows that for the course code SE-408, the total number of theory classes held is 18, which matches the response provided.",1.0,
+What is the name of the student whose academic session is 2023-2024 and who belongs to the Software Engineering discipline?,The name of the student is Muhammad Moazz Siddiqui.,"Report Generated on 19-MAY-24NED UNIVERSITY OF ENGINEERING AND TECHNOLOGY -
+STUDENT ATTENDANCE
+Student Name :
+Academic Session :
+Discipline :
+From Date : To Date :Section :Academic Year :Roll No. :
+2023-2024
+Software EngineeringMUHAMMAD MOAAZ SIDDIQUI
+26-FEB-24SE-076
+Fourth Year
+Section-B
+12-JUL-24
+Page 1 of 1Theory
+1
+2
+3
+4MG-481 
+SE-408 
+SE-410 
+SE-485 ( Opt )  4
+14
+18
+160
+7
+13
+100
+50
+72
+6318-APR-2024
+02-MAY-2024
+09-MAY-2024
+09-MAY-2024
+ 58 TotalTheoryPercentage :S.No. Coursecode Classes Held Present Percentage Last Class Entered...","Yes, the response for the query is in line with the context information provided. The context indicates that the student's name is Muhammad Moazz Siddiqui, and they belong to the Software Engineering discipline with the academic session 2023-2024.",1.0,
+Calculate the percentage of classes attended by the student in the course code MG-481.,"To calculate the percentage of classes attended by the student in the course code MG-481, we need to divide the number of classes attended by the total number of classes for that course, and then multiply by 100.
+
+From the context, we can see that the total number of classes held for MG-481 is 160, and the number of classes attended by the student is 18. Therefore, the percentage attended can be calculated as follows:
+
+(18 / 160) \* 100 = 11.25%
+
+So, the student attended 11.25% of the classes for the course code MG-481.","Report Generated on 19-MAY-24NED UNIVERSITY OF ENGINEERING AND TECHNOLOGY -
+STUDENT ATTENDANCE
+Student Name :
+Academic Session :
+Discipline :
+From Date : To Date :Section :Academic Year :Roll No. :
+2023-2024
+Software EngineeringMUHAMMAD MOAAZ SIDDIQUI
+26-FEB-24SE-076
+Fourth Year
+Section-B
+12-JUL-24
+Page 1 of 1Theory
+1
+2
+3
+4MG-481 
+SE-408 
+SE-410 
+SE-485 ( Opt )  4
+14
+18
+160
+7
+13
+100
+50
+72
+6318-APR-2024
+02-MAY-2024
+09-MAY-2024
+09-MAY-2024
+ 58 TotalTheoryPercentage :S.No. Coursecode Classes Held Present Percentage Last Class Entered...","Yes, the response for the query is in line with the context information provided. The context indicates that the total number of classes for MG-481 is 160, and the student attended 18 of them. The response correctly explains how to calculate the percentage of classes attended and then applies this formula to the given numbers, resulting in an attendance rate of 11.25%.",1.0,
+Which is the course with the highest number of total classes held?,"The course with the highest number of total classes held is SE-408, with a total of 18 classes.","Report Generated on 19-MAY-24NED UNIVERSITY OF ENGINEERING AND TECHNOLOGY -
+STUDENT ATTENDANCE
+Student Name :
+Academic Session :
+Discipline :
+From Date : To Date :Section :Academic Year :Roll No. :
+2023-2024
+Software EngineeringMUHAMMAD MOAAZ SIDDIQUI
+26-FEB-24SE-076
+Fourth Year
+Section-B
+12-JUL-24
+Page 1 of 1Theory
+1
+2
+3
+4MG-481 
+SE-408 
+SE-410 
+SE-485 ( Opt )  4
+14
+18
+160
+7
+13
+100
+50
+72
+6318-APR-2024
+02-MAY-2024
+09-MAY-2024
+09-MAY-2024
+ 58 TotalTheoryPercentage :S.No. Coursecode Classes Held Present Percentage Last Class Entered...","Yes, the response for the query is in line with the context information provided. The context table shows that the course SE-408 has 18 classes held, which is the highest number of classes held for any course. Therefore, the response is correct.",1.0,
+What is the date of the last class entered by the student?,"The last class entered by the student was on the 9th of May, 2024.","Report Generated on 19-MAY-24NED UNIVERSITY OF ENGINEERING AND TECHNOLOGY -
+STUDENT ATTENDANCE
+Student Name :
+Academic Session :
+Discipline :
+From Date : To Date :Section :Academic Year :Roll No. :
+2023-2024
+Software EngineeringMUHAMMAD MOAAZ SIDDIQUI
+26-FEB-24SE-076
+Fourth Year
+Section-B
+12-JUL-24
+Page 1 of 1Theory
+1
+2
+3
+4MG-481 
+SE-408 
+SE-410 
+SE-485 ( Opt )  4
+14
+18
+160
+7
+13
+100
+50
+72
+6318-APR-2024
+02-MAY-2024
+09-MAY-2024
+09-MAY-2024
+ 58 TotalTheoryPercentage :S.No. Coursecode Classes Held Present Percentage Last Class Entered...","Yes, the response is in line with the context information provided. The context indicates that the last class entered by the student was on the 9th of May, 2024, which matches the response provided.",1.0,

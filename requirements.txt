@@ -1,0 +1,7 @@
+llama-index-readers-file
+llama-index-llms-groq
+llama_index.embeddings.huggingface
+llama-index
+python-dotenv
+spacy
+nest_asyncio
