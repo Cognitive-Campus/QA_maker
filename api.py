@@ -12,9 +12,17 @@ import os
 import shutil
 from typing import List
 import tempfile
+from llama_index.llms.gemini import Gemini
+from llama_index.llms.huggingface_api import HuggingFaceInferenceAPI
+
+import os
+
+GOOGLE_API_KEY = "AIzaSyCrDt5iXSHAyHOYvzv4IBTRTkxaXIxeMpg"  # add your GOOGLE API key here
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 
-API_KEY = "gsk_ExhUpLaGnyzDMb1reO"
+#! GROQ API KEY
+API_KEY = "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"
 
 # Setup logging
 def setup_logging():
@@ -28,9 +36,16 @@ def load_documents(input_dir):
 
 # Initialize LLM and Evaluator
 def initialize_evaluator(api_key):
-    llm = Groq(model="mixtral-8x7b-32768", api_key=API_KEY)
+    # llm = Groq(model="mixtral-8x7b-32768", api_key=api_key)
+    # llm = Groq(model="llama3-8b-8192", api_key=api_key)
+    # llm = Gemini(model="models/gemini-pro")
+    llm = HuggingFaceInferenceAPI(
+    model_name="mistralai/Mistral-7B-Instruct-v0.2", token="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"
+    )
     evaluator = RelevancyEvaluator(llm=llm)
     return llm, evaluator
+
+
 
 # Generate evaluation questions from documents
 def generate_questions(documents, llm):
@@ -96,4 +111,4 @@ def evaluate(files: List[UploadFile] = File(...)):
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 # Run this code to start the FastAPI app
-# uvicorn app:app --reload
+# uvicorn api:app --reload

@@ -5,3 +5,9 @@ llama-index
 python-dotenv
 spacy
 nest_asyncio
+llama-index-embeddings-fastembed
+fastembed
+llama-index-llms-gemini
+google-generativeai
+llama-index-llms-huggingface-api
+llama-index-llms-huggingface
