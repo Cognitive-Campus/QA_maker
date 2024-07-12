@@ -5,7 +5,7 @@ import pandas as pd
 from llama_index.core.evaluation import DatasetGenerator, RelevancyEvaluator
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from llama_index.llms.groq import Groq
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding, HuggingFaceInferenceAPIEmbedding
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 import os
@@ -40,7 +40,7 @@ def initialize_evaluator(api_key):
     # llm = Groq(model="llama3-8b-8192", api_key=api_key)
     # llm = Gemini(model="models/gemini-pro")
     llm = HuggingFaceInferenceAPI(
-    model_name="mistralai/Mistral-7B-Instruct-v0.2", token="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"
+    model_name="mistralai/Mistral-7B-Instruct-v0.2", token="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"
     )
     evaluator = RelevancyEvaluator(llm=llm)
     return llm, evaluator
@@ -55,7 +55,7 @@ def generate_questions(documents, llm):
 
 # Create vector index from documents
 def create_vector_index(documents):
-    embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+    embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5", token="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")
     return VectorStoreIndex.from_documents(documents, embed_model=embed_model)
 
 # Evaluate responses
@@ -111,4 +111,5 @@ def evaluate(files: List[UploadFile] = File(...)):
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 # Run this code to start the FastAPI app
-# uvicorn api:app --reload
+# uvicorn api:app --reload 
+
